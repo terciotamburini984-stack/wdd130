@@ -60,7 +60,7 @@
 
   // disable copilot chat
   "chat.agent.enabled": false,
-  "chat.disableAIFeatures": true,
+  "chat.disableAIFeatures": false,
   "chat.commandCenter.enabled": false,
   "inlineChat.accessibleDiffView": "off",
   "terminal.integrated.initialHint": false,
