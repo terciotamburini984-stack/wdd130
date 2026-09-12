@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    max-width: 500px;
+    max-width: 840px;
     margin: 0 auto;
     padding: 0;
     background-color: #f0f0f0;
@@ -32,7 +32,7 @@ h1 {
 }
 
 main img {
-    width: 150%;
+    width: 150px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -43,7 +43,7 @@ p {
 }
 
 aside {
-    width: 28rem;
+    width: 20rem;
     margin: 1rem auto;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
