@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     max-width: 840px;
@@ -42,8 +48,8 @@ h1 {
 main img {
     width: 150px;
     height: auto;
-    display: block;
-    margin: 0 auto;
+    float: right;
+    margin: 0 0 1rem 1rem;
     border: 1px solid #333;
     padding: 5px;
     box-shadow: 0 0 10px #999;
@@ -53,19 +59,30 @@ p {
     padding: 0;
 }
 
-aside {
-    width: 20rem;
-    margin: 1rem auto;
+.caixa {
+    margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
+}
+
+aside {
+    width: 20rem;
     text-align: center;
+    position: relative
 }
 
 aside img {
     width: 200px;
     height: auto;
+}
+
+aside h2 {
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    width: 100%;
 }
 
 footer {
