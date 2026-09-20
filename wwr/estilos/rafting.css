@@ -1,6 +1,6 @@
 :root {
     --primary-color: #2C6E49;
-    --secondary-color: #4C956c;
+    --secondary-color: #4C956C;
     --accent1-color: #F2C14E;
     --accent2-color: #FFFFFF;
 
@@ -55,6 +55,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 16px;
+    background-color: var(--secondary-color);
 }
 
 header > img {
@@ -95,8 +96,8 @@ header nav a:hover {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent2-color);
+    opacity: 0.8;
+    background-color: var(--accent1-color);
     color: var(--primary-color);
 }
 
