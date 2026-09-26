@@ -70,14 +70,14 @@ header nav {
 
 header nav a {
     color: var(--nav-link-color);
-    background-color: var(--nav-backgroud-color);
+    background-color: var(--nav-background-color);
     padding: 10px 15px;
     text-decoration: none;
 }
 
 header nav a:hover {
     color: var(--nav-hover-link-color);
-    background-color: var(--nav_hover_backgroud-color);
+    background-color: var(--nav_hover_background-color);
 }
 
 .hero {
