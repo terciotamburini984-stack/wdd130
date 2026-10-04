@@ -181,3 +181,156 @@ footer .socialmedia img {
     padding: 8px;
     font-weight: bold;
 }
+
+.contato {
+    margin: 16px;
+    padding: 8px;
+}
+
+.contato h1 {
+    margin-bottom: 20px;
+}
+
+.informacoes-contato {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+.dados-empresa,
+.mapa {
+    padding: 16px;
+}
+
+.dados-empresa p {
+    margin: 12px 0;
+}
+
+.mapa {
+    text-align: center;
+}
+
+.mapa iframe {
+    width: 100%;
+    max-width: 400px;
+    border: none;
+}
+
+.funcionarios {
+    margin: 16px;
+    padding: 8px;
+}
+
+.funcionarios h2 {
+    margin-bottom: 20px;
+}
+
+.equipe {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.equipe figure {
+    margin: 0;
+    text-align: center;
+}
+
+.equipe img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    display: block;
+    background-color: #f2f2f2;
+}
+
+.equipe figcaption {
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.formulario-contato {
+    margin: 16px;
+    padding: 8px;
+}
+
+.formulario-contato h2 {
+    margin-bottom: 20px;
+}
+
+.formulario-contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.campo-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.campo-formulario label {
+    font-weight: bold;
+}
+
+.campo-formulario input,
+.campo-formulario textarea {
+    font-family: var(--paragraph-font);
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+}
+
+.campo-formulario textarea {
+    resize: vertical;
+}
+
+.formulario-contato fieldset {
+    padding: 16px;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+}
+
+.formulario-contato legend {
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+.formulario-contato fieldset label {
+    display: block;
+    margin: 10px 0;
+}
+
+.formulario-contato input[type="radio"] {
+    margin-right: 8px;
+}
+
+.newsletter {
+    padding: 8px;
+}
+
+.newsletter input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.formulario-contato button {
+    align-self: center;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+    font-family: var(--paragraph-font);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.formulario-contato button:hover {
+    background-color: var(--nav_hover_background-color);
+    color: var(--nav-hover-link-color);
+}
