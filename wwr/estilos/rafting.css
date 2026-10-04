@@ -139,14 +139,14 @@ footer {
     padding: 16px;
 }
 
-footer .socialmedia {
+footer .redes-sociais {
     display: flex;
     gap: 10px;
     margin: 0;
     padding: 0;
 }
 
-footer .socialmedia img {
+footer .redes-sociais img {
     width: 40px;
     height: 40px;
 }
